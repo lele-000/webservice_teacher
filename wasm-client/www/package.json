@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack build"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "wasm-client": "file:../pkg",
+    "copy-webpack-plugin": "^11.0.0",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
